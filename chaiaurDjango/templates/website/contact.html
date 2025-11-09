@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{% static 'contact.css' %}">   
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have any questions? We'd love to hear from you!</p>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+</body>
+</html>

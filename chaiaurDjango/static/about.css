@@ -1,0 +1,25 @@
+
+
+.about-section {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.team-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.team-card {
+    background: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.team-card h3 {
+    margin: 0;
+}
